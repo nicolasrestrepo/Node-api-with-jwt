@@ -1,0 +1,32 @@
+{
+  "name": "api-rest",
+  "version": "0.1.0",
+  "description": "api de un supermercado que consumiremos con react.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nicolasrestrepo"
+  },
+  "author": "nicolas restrepo",
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "^7.1.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.17.2",
+    "crypto": "^0.0.3",
+    "express": "^4.15.3",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.5.2",
+    "nodemon": "^1.11.0",
+    "webpack": "^3.0.0"
+  }
+}
